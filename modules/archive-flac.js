@@ -156,7 +156,7 @@
   function seconds(value) {
     var n = Number(value);
     if (!isFinite(n) || n <= 0) return 0;
-    return Math.round(n * 10) / 10;
+    return Math.round(n);
   }
 
   function artistOf(doc, meta) {
